@@ -16458,9 +16458,8 @@ if (goog.DEBUG) {
  * @suppress {checkTypes}
  */
 function __deltemplate_s32_d34389eb(opt_data, opt_ignored, opt_ijData) {
-  var linkSelect__soy33 = opt_data.page.active && ('' + opt_data.page.url).indexOf('.html') != -1;
   ie_open('a', null, null,
-      'class', 'sidebar-link' + (linkSelect__soy33 ? ' sidebar-link-selected' : ''),
+      'class', 'sidebar-link' + (opt_data.page.active ? ' sidebar-link-selected' : ''),
       'href', opt_data.page.url);
     ie_void('span', null, null,
         'class', 'sidebar-icon icon-16-' + opt_data.page.icon);

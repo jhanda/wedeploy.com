@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([74,184,185,186,187,188,189,190],[
+webpackJsonppageComponent([76,184,185,186,187,188,189,190],[
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10506,7 +10506,7 @@ if (goog.DEBUG) {
  * @return {void}
  * @suppress {checkTypes}
  */
-function __deltemplate_s52_99ee0d1f(opt_data, opt_ignored, opt_ijData) {
+function __deltemplate_s51_99ee0d1f(opt_data, opt_ignored, opt_ijData) {
   var $$temp;
   if (opt_data.page.url == '//console.wedeploy.com/signup') {
     ie_open('a', null, null,
@@ -10530,11 +10530,11 @@ function __deltemplate_s52_99ee0d1f(opt_data, opt_ignored, opt_ijData) {
           if (typeof dyn1 == 'function') dyn1(); else if (dyn1 != null) itext(dyn1);
         ie_close('a');
       }
-      exports.__deltemplate_s52_99ee0d1f = __deltemplate_s52_99ee0d1f;
+      exports.__deltemplate_s51_99ee0d1f = __deltemplate_s51_99ee0d1f;
       if (goog.DEBUG) {
-        __deltemplate_s52_99ee0d1f.soyTemplateName = 'Topbar.__deltemplate_s52_99ee0d1f';
+        __deltemplate_s51_99ee0d1f.soyTemplateName = 'Topbar.__deltemplate_s51_99ee0d1f';
       }
-      soy.$$registerDelegateFn(soy.$$getDelTemplateId('ElectricNavigation.anchor.idom'), 'topbar', 0, __deltemplate_s52_99ee0d1f);
+      soy.$$registerDelegateFn(soy.$$getDelTemplateId('ElectricNavigation.anchor.idom'), 'topbar', 0, __deltemplate_s51_99ee0d1f);
 
 exports.render.params = ["section"];
 exports.render.types = {"section":"any"};
@@ -10609,14 +10609,14 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
-  var param117 = function() {
+  var param116 = function() {
     ie_open('div', null, null,
         'class', 'blog');
       $mainPost(opt_data, null, opt_ijData);
       $olderPosts(opt_data, null, opt_ijData);
     ie_close('div');
   };
-  $templateAlias1(soy.$$assignDefaults({elementClasses: 'blog', content: param117, currentPage: 'blog'}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({elementClasses: 'blog', content: param116, currentPage: 'blog'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -10686,31 +10686,31 @@ function $olderPosts(opt_data, opt_ignored, opt_ijData) {
       'class', 'posts-list');
     ie_open('div', null, null,
         'class', 'container');
-      var blogObject__soy136 = opt_data.site.index.children['blog'];
-      var childIdList148 = blogObject__soy136.childIds;
-      var childIdListLen148 = childIdList148.length;
-      for (var childIdIndex148 = 0; childIdIndex148 < childIdListLen148; childIdIndex148++) {
-        var childIdData148 = childIdList148[childIdIndex148];
-        if (opt_data.page.url != blogObject__soy136.children[childIdData148].url && childIdIndex148 < 4) {
+      var blogObject__soy135 = opt_data.site.index.children['blog'];
+      var childIdList147 = blogObject__soy135.childIds;
+      var childIdListLen147 = childIdList147.length;
+      for (var childIdIndex147 = 0; childIdIndex147 < childIdListLen147; childIdIndex147++) {
+        var childIdData147 = childIdList147[childIdIndex147];
+        if (opt_data.page.url != blogObject__soy135.children[childIdData147].url && childIdIndex147 < 4) {
           ie_open('div', null, null,
               'class', 'post-item container-blog');
             ie_open('a', null, null,
                 'class', 'post-item__link',
-                'href', blogObject__soy136.children[childIdData148].url);
+                'href', blogObject__soy135.children[childIdData147].url);
               ie_open('small');
                 itext('By ');
-                var dyn11 = blogObject__soy136.children[childIdData148].author;
+                var dyn11 = blogObject__soy135.children[childIdData147].author;
                 if (typeof dyn11 == 'function') dyn11(); else if (dyn11 != null) itext(dyn11);
                 itext(' ');
                 ie_open('span');
                   itext('| ');
-                  var dyn12 = blogObject__soy136.children[childIdData148].date;
+                  var dyn12 = blogObject__soy135.children[childIdData147].date;
                   if (typeof dyn12 == 'function') dyn12(); else if (dyn12 != null) itext(dyn12);
                 ie_close('span');
               ie_close('small');
               ie_open('h4', null, null,
                   'class', 'post-item__title');
-                var dyn13 = blogObject__soy136.children[childIdData148].title;
+                var dyn13 = blogObject__soy135.children[childIdData147].title;
                 if (typeof dyn13 == 'function') dyn13(); else if (dyn13 != null) itext(dyn13);
               ie_close('h4');
             ie_close('a');
@@ -11690,7 +11690,7 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param246 = function() {
+  var param245 = function() {
     ie_open('div', null, null,
         'class', 'blog terms');
       ie_open('div', null, null,
@@ -11715,7 +11715,7 @@ function $render(opt_data, opt_ignored, opt_ijData) {
       ie_close('div');
     ie_close('div');
   };
-  $templateAlias1(soy.$$assignDefaults({elementClasses: 'blog', content: param246}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({elementClasses: 'blog', content: param245}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -11827,7 +11827,7 @@ if (goog.DEBUG) {
 function $tutorials(opt_data, opt_ignored, opt_ijData) {
   ie_open('div', null, null,
       'class', 'sidebar-offset');
-    var param269 = function() {
+    var param268 = function() {
       ie_open('div', null, null,
           'class', 'topbar-logo');
         ie_open('span', null, null,
@@ -11842,7 +11842,7 @@ function $tutorials(opt_data, opt_ignored, opt_ijData) {
         ie_close('span');
       ie_close('div');
     };
-    $templateAlias2({elementClasses: 'topbar-light', page: opt_data.page, logo: param269}, null, opt_ijData);
+    $templateAlias2({elementClasses: 'topbar-light', page: opt_data.page, logo: param268}, null, opt_ijData);
     ie_open('div', null, null,
         'class', 'container');
       ie_open('div', null, null,
@@ -11870,9 +11870,9 @@ if (goog.DEBUG) {
 function $footerButtons(opt_data, opt_ignored, opt_ijData) {
   ie_open('div', null, null,
       'class', 'tutorial-page-nav');
-    var tutorialObject__soy280 = opt_data.site.index.children['tutorials'].children[opt_data.page.parentId];
-    if (opt_data.page.weight < tutorialObject__soy280.childIds.length) {
-      var nextPageUrl__soy283 = tutorialObject__soy280.children[tutorialObject__soy280.childIds[opt_data.page.weight]].url;
+    var tutorialObject__soy279 = opt_data.site.index.children['tutorials'].children[opt_data.page.parentId];
+    if (opt_data.page.weight < tutorialObject__soy279.childIds.length) {
+      var nextPageUrl__soy282 = tutorialObject__soy279.children[tutorialObject__soy279.childIds[opt_data.page.weight]].url;
       if (opt_data.site.githubRepo) {
         ie_open('a', null, null,
             'href', 'https://github.com/' + opt_data.site.githubRepo + '/issues/new?title=Tutorial+Problem&body=%3E+URL%3A+' + opt_data.page.url,
@@ -11883,7 +11883,7 @@ function $footerButtons(opt_data, opt_ignored, opt_ijData) {
       }
       if (opt_data.page.buttonTitle) {
         ie_open('a', null, null,
-            'href', nextPageUrl__soy283,
+            'href', nextPageUrl__soy282,
             'class', 'btn btn-accent btn-sm');
           var dyn21 = opt_data.page.buttonTitle;
           if (typeof dyn21 == 'function') dyn21(); else if (dyn21 != null) itext(dyn21);
@@ -26055,9 +26055,8 @@ if (goog.DEBUG) {
  * @suppress {checkTypes}
  */
 function __deltemplate_s32_d34389eb(opt_data, opt_ignored, opt_ijData) {
-  var linkSelect__soy33 = opt_data.page.active && ('' + opt_data.page.url).indexOf('.html') != -1;
   ie_open('a', null, null,
-      'class', 'sidebar-link' + (linkSelect__soy33 ? ' sidebar-link-selected' : ''),
+      'class', 'sidebar-link' + (opt_data.page.active ? ' sidebar-link-selected' : ''),
       'href', opt_data.page.url);
     ie_void('span', null, null,
         'class', 'sidebar-icon icon-16-' + opt_data.page.icon);
@@ -26170,7 +26169,7 @@ if (goog.DEBUG) {
  * @return {void}
  * @suppress {checkTypes}
  */
-function __deltemplate_s85_88c0813b(opt_data, opt_ignored, opt_ijData) {
+function __deltemplate_s84_88c0813b(opt_data, opt_ignored, opt_ijData) {
   ie_open('a', null, null,
       'class', 'sidebar-link' + (opt_data.page.active ? ' sidebar-link-selected' : ''),
       'href', opt_data.page.url,
@@ -26191,11 +26190,11 @@ function __deltemplate_s85_88c0813b(opt_data, opt_ignored, opt_ijData) {
         'class', 'after');
   ie_close('a');
 }
-exports.__deltemplate_s85_88c0813b = __deltemplate_s85_88c0813b;
+exports.__deltemplate_s84_88c0813b = __deltemplate_s84_88c0813b;
 if (goog.DEBUG) {
-  __deltemplate_s85_88c0813b.soyTemplateName = 'TutorialSidebar.__deltemplate_s85_88c0813b';
+  __deltemplate_s84_88c0813b.soyTemplateName = 'TutorialSidebar.__deltemplate_s84_88c0813b';
 }
-soy.$$registerDelegateFn(soy.$$getDelTemplateId('ElectricNavigation.anchor.idom'), 'tutorial', 0, __deltemplate_s85_88c0813b);
+soy.$$registerDelegateFn(soy.$$getDelTemplateId('ElectricNavigation.anchor.idom'), 'tutorial', 0, __deltemplate_s84_88c0813b);
 
 exports.render.params = ["page","navigationToggler"];
 exports.render.types = {"page":"any","navigationToggler":"any"};
@@ -35953,7 +35952,7 @@ function $soyweb(opt_data, opt_ignored, opt_ijData) {
         ie_close('meta');
         ie_open('meta', null, null,
             'http-equiv', 'refresh',
-            'content', '0; URL=\'/tutorials/data-web/get-started.html\'');
+            'content', '0; URL=\'' + opt_data.page.url + '\'');
         ie_close('meta');
       ie_close('head');
     ie_close('html');
@@ -35965,8 +35964,8 @@ function $soyweb(opt_data, opt_ignored, opt_ijData) {
 
 exports.render.params = [];
 exports.render.types = {};
-exports.soyweb.params = [];
-exports.soyweb.types = {};
+exports.soyweb.params = ["page"];
+exports.soyweb.types = {"page":"any"};
 templates = exports;
 return exports;
 
@@ -36159,9 +36158,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(dataWebTutorials, tem
 /* 484 */,
 /* 485 */,
 /* 486 */,
-/* 487 */,
-/* 488 */,
-/* 489 */
+/* 487 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36240,4 +36237,4 @@ _metalSoy2.default.register(dataWebTutorials, _indexSoy2.default);
 exports.default = dataWebTutorials;
 
 /***/ })
-],[489]);
+],[487]);
