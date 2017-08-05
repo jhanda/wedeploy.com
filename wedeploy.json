@@ -1,4 +1,5 @@
 {
 	"id": "db",
-	"image": "wedeploy/data:0.0.1"
+	"image": "wedeploy/data:0.0.1",
+	"customDomains": ["db.wedeploy.com"]
 }
