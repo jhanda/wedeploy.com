@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([2,184,185,186,187,188,189,190],[
+webpackJsonppageComponent([2,183,184,185,186,187,188,189],[
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -924,7 +924,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// moment.js
             return moment.fn._lang;
         }
         if (!languages[key] && hasModule) {
-            __webpack_require__(175)("./" + key);
+            __webpack_require__(174)("./" + key);
         }
         return languages[key];
     }
@@ -1962,27 +1962,27 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.ElectricUpdates = exports.ElectricSearchBase = exports.ElectricSearchAutocomplete = exports.ElectricSearch = exports.ElectricReadingProgress = exports.ElectricNavigation = exports.ElectricCodeTabs = exports.ElectricCode = undefined;
 
-var _ElectricCode = __webpack_require__(141);
+var _ElectricCode = __webpack_require__(140);
 
 var _ElectricCode2 = _interopRequireDefault(_ElectricCode);
 
-var _ElectricCodeTabs = __webpack_require__(142);
+var _ElectricCodeTabs = __webpack_require__(141);
 
 var _ElectricCodeTabs2 = _interopRequireDefault(_ElectricCodeTabs);
 
-var _ElectricNavigation = __webpack_require__(143);
+var _ElectricNavigation = __webpack_require__(142);
 
 var _ElectricNavigation2 = _interopRequireDefault(_ElectricNavigation);
 
-var _ElectricReadingProgress = __webpack_require__(144);
+var _ElectricReadingProgress = __webpack_require__(143);
 
 var _ElectricReadingProgress2 = _interopRequireDefault(_ElectricReadingProgress);
 
-var _ElectricSearch = __webpack_require__(145);
+var _ElectricSearch = __webpack_require__(144);
 
 var _ElectricSearch2 = _interopRequireDefault(_ElectricSearch);
 
-var _ElectricSearchAutocomplete = __webpack_require__(146);
+var _ElectricSearchAutocomplete = __webpack_require__(145);
 
 var _ElectricSearchAutocomplete2 = _interopRequireDefault(_ElectricSearchAutocomplete);
 
@@ -1990,7 +1990,7 @@ var _ElectricSearchBase = __webpack_require__(16);
 
 var _ElectricSearchBase2 = _interopRequireDefault(_ElectricSearchBase);
 
-var _ElectricUpdates = __webpack_require__(147);
+var _ElectricUpdates = __webpack_require__(146);
 
 var _ElectricUpdates2 = _interopRequireDefault(_ElectricUpdates);
 
@@ -2079,33 +2079,6 @@ function getData(component) {
 
 /***/ }),
 /* 10 */
-/***/ (function(module, exports) {
-
-var g;
-
-// This works in non-strict mode
-g = (function() {
-	return this;
-})();
-
-try {
-	// This works if eval is allowed (see CSP)
-	g = g || Function("return this")() || (1,eval)("this");
-} catch(e) {
-	// This works if the window reference is available
-	if(typeof window === "object")
-		g = window;
-}
-
-// g can still be undefined, but nothing to do about it...
-// We return undefined, instead of nothing here, so it's
-// easier to handle this case. if(!global) { ...}
-
-module.exports = g;
-
-
-/***/ }),
-/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2116,7 +2089,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.Position = exports.Geometry = exports.Align = undefined;
 
-var _Align = __webpack_require__(158);
+var _Align = __webpack_require__(157);
 
 var _Align2 = _interopRequireDefault(_Align);
 
@@ -2136,7 +2109,7 @@ exports.Geometry = _Geometry2.default;
 exports.Position = _Position2.default;
 
 /***/ }),
-/* 12 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3069,7 +3042,7 @@ exports.CancellablePromise = CancellablePromise;
 exports.default = CancellablePromise;
 
 /***/ }),
-/* 13 */
+/* 12 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -3256,6 +3229,33 @@ process.chdir = function (dir) {
     throw new Error('process.chdir is not supported');
 };
 process.umask = function() { return 0; };
+
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports) {
+
+var g;
+
+// This works in non-strict mode
+g = (function() {
+	return this;
+})();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || Function("return this")() || (1,eval)("this");
+} catch(e) {
+	// This works if the window reference is available
+	if(typeof window === "object")
+		g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
 
 
 /***/ }),
@@ -3474,7 +3474,7 @@ var _metal = __webpack_require__(1);
 
 var _metal2 = _interopRequireDefault(_metal);
 
-var _metalPromise = __webpack_require__(12);
+var _metalPromise = __webpack_require__(11);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -4960,7 +4960,7 @@ if ((0, _metal.isServerSide)()) {
 
 	scope.IncrementalDOM = IncrementalDOM;
 }
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(10)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
 
 /***/ }),
 /* 28 */
@@ -5912,7 +5912,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _ToastSoy = __webpack_require__(133);
+var _ToastSoy = __webpack_require__(132);
 
 var _ToastSoy2 = _interopRequireDefault(_ToastSoy);
 
@@ -5920,7 +5920,7 @@ var _metalSoy = __webpack_require__(2);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
-var _metalAlert = __webpack_require__(130);
+var _metalAlert = __webpack_require__(129);
 
 var _metalAlert2 = _interopRequireDefault(_metalAlert);
 
@@ -6024,7 +6024,7 @@ var _metalDom = __webpack_require__(4);
 
 var _metalDom2 = _interopRequireDefault(_metalDom);
 
-var _metalPromise = __webpack_require__(12);
+var _metalPromise = __webpack_require__(11);
 
 var _metalPromise2 = _interopRequireDefault(_metalPromise);
 
@@ -9731,11 +9731,11 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _metal = __webpack_require__(1);
 
-var _metalUri = __webpack_require__(174);
+var _metalUri = __webpack_require__(173);
 
 var _metalUri2 = _interopRequireDefault(_metalUri);
 
-var _metalPromise = __webpack_require__(12);
+var _metalPromise = __webpack_require__(11);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -9881,7 +9881,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.AutocompleteBase = exports.Autocomplete = undefined;
 
-var _Autocomplete = __webpack_require__(149);
+var _Autocomplete = __webpack_require__(148);
 
 var _Autocomplete2 = _interopRequireDefault(_Autocomplete);
 
@@ -9920,7 +9920,7 @@ var _electricBaseComponents = __webpack_require__(7);
 
 var _electricBaseComponents2 = _interopRequireDefault(_electricBaseComponents);
 
-var _metalPosition = __webpack_require__(11);
+var _metalPosition = __webpack_require__(10);
 
 var _metalPosition2 = _interopRequireDefault(_metalPosition);
 
@@ -9928,7 +9928,7 @@ var _metalSoy = __webpack_require__(2);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
-var _AffixedReadingProgress = __webpack_require__(135);
+var _AffixedReadingProgress = __webpack_require__(134);
 
 var _AffixedReadingProgress2 = _interopRequireDefault(_AffixedReadingProgress);
 
@@ -9993,7 +9993,7 @@ var _metalToast = __webpack_require__(32);
 
 var _metalToast2 = _interopRequireDefault(_metalToast);
 
-var _Feedback = __webpack_require__(136);
+var _Feedback = __webpack_require__(135);
 
 var _Feedback2 = _interopRequireDefault(_Feedback);
 
@@ -10088,7 +10088,7 @@ var _metalToast = __webpack_require__(32);
 
 var _metalToast2 = _interopRequireDefault(_metalToast);
 
-var _Newsletter = __webpack_require__(137);
+var _Newsletter = __webpack_require__(136);
 
 var _Newsletter2 = _interopRequireDefault(_Newsletter);
 
@@ -10181,11 +10181,11 @@ var _metalSoy = __webpack_require__(2);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
-var _metalToggler = __webpack_require__(134);
+var _metalToggler = __webpack_require__(133);
 
 var _metalToggler2 = _interopRequireDefault(_metalToggler);
 
-var _Sidebar = __webpack_require__(138);
+var _Sidebar = __webpack_require__(137);
 
 var _Sidebar2 = _interopRequireDefault(_Sidebar);
 
@@ -10259,7 +10259,7 @@ var _moment = __webpack_require__(3);
 
 var _moment2 = _interopRequireDefault(_moment);
 
-var _TutorialSidebar = __webpack_require__(139);
+var _TutorialSidebar = __webpack_require__(138);
 
 var _TutorialSidebar2 = _interopRequireDefault(_TutorialSidebar);
 
@@ -10390,7 +10390,7 @@ var _metalSoy = __webpack_require__(2);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
-var _TutorialTopbar = __webpack_require__(140);
+var _TutorialTopbar = __webpack_require__(139);
 
 var _TutorialTopbar2 = _interopRequireDefault(_TutorialTopbar);
 
@@ -11927,31 +11927,31 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.ElectricUpdates = exports.ElectricSearchAutocomplete = exports.ElectricSearch = exports.ElectricReadingProgress = exports.ElectricNavigation = exports.ElectricCode = exports.ElectricAPIAutocomplete = undefined;
 
-var _ElectricAPIAutocomplete = __webpack_require__(184);
+var _ElectricAPIAutocomplete = __webpack_require__(183);
 
 var _ElectricAPIAutocomplete2 = _interopRequireDefault(_ElectricAPIAutocomplete);
 
-var _ElectricCode = __webpack_require__(185);
+var _ElectricCode = __webpack_require__(184);
 
 var _ElectricCode2 = _interopRequireDefault(_ElectricCode);
 
-var _ElectricNavigation = __webpack_require__(187);
+var _ElectricNavigation = __webpack_require__(186);
 
 var _ElectricNavigation2 = _interopRequireDefault(_ElectricNavigation);
 
-var _ElectricReadingProgress = __webpack_require__(189);
+var _ElectricReadingProgress = __webpack_require__(188);
 
 var _ElectricReadingProgress2 = _interopRequireDefault(_ElectricReadingProgress);
 
-var _ElectricSearch = __webpack_require__(191);
+var _ElectricSearch = __webpack_require__(190);
 
 var _ElectricSearch2 = _interopRequireDefault(_ElectricSearch);
 
-var _ElectricSearchAutocomplete = __webpack_require__(193);
+var _ElectricSearchAutocomplete = __webpack_require__(192);
 
 var _ElectricSearchAutocomplete2 = _interopRequireDefault(_ElectricSearchAutocomplete);
 
-var _ElectricUpdates = __webpack_require__(195);
+var _ElectricUpdates = __webpack_require__(194);
 
 var _ElectricUpdates2 = _interopRequireDefault(_ElectricUpdates);
 
@@ -14131,7 +14131,7 @@ exports.notifications = notifications;
 exports.importNode = importNode;
 
 //# sourceMappingURL=incremental-dom-cjs.js.map
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
 /* 102 */
@@ -22463,7 +22463,7 @@ __webpack_require__(23);
     return IncrementalDOM;
   });
 }).call(typeof exports !== 'undefined' && typeof global !== 'undefined' ? global : window);
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(10)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
 
 /***/ }),
 /* 118 */
@@ -24052,7 +24052,7 @@ async.nextTick.wrapCallback_ = function (opt_returnValue) {
 };
 
 exports.default = async;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(129).setImmediate))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(128).setImmediate))
 
 /***/ }),
 /* 123 */
@@ -24387,7 +24387,7 @@ function isServerSide() {
  * @return {void} Nothing.
  */
 function nullFunction() {}
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
 /* 124 */
@@ -24705,26 +24705,6 @@ exports.default = string;
 /* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(global) {var win;
-
-if (typeof window !== "undefined") {
-    win = window;
-} else if (typeof global !== "undefined") {
-    win = global;
-} else if (typeof self !== "undefined"){
-    win = self;
-} else {
-    win = {};
-}
-
-module.exports = win;
-
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(10)))
-
-/***/ }),
-/* 128 */
-/***/ (function(module, exports, __webpack_require__) {
-
 /* WEBPACK VAR INJECTION */(function(global, process) {(function (global, undefined) {
     "use strict";
 
@@ -24912,10 +24892,10 @@ module.exports = win;
     attachTo.clearImmediate = clearImmediate;
 }(typeof self === "undefined" ? typeof global === "undefined" ? this : global : self));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(10), __webpack_require__(13)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13), __webpack_require__(12)))
 
 /***/ }),
-/* 129 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var apply = Function.prototype.apply;
@@ -24968,14 +24948,13 @@ exports._unrefActive = exports.active = function(item) {
 };
 
 // setimmediate attaches itself to the global object
-__webpack_require__(128);
-var global = __webpack_require__(127);
-exports.setImmediate = global.setImmediate;
-exports.clearImmediate = global.clearImmediate;
+__webpack_require__(127);
+exports.setImmediate = setImmediate;
+exports.clearImmediate = clearImmediate;
 
 
 /***/ }),
-/* 130 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24995,7 +24974,7 @@ var _metalDom = __webpack_require__(4);
 
 var _metalDom2 = _interopRequireDefault(_metalDom);
 
-var _metalAnim = __webpack_require__(132);
+var _metalAnim = __webpack_require__(131);
 
 var _metalAnim2 = _interopRequireDefault(_metalAnim);
 
@@ -25009,7 +24988,7 @@ var _metalSoy = __webpack_require__(2);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
-var _AlertSoy = __webpack_require__(131);
+var _AlertSoy = __webpack_require__(130);
 
 var _AlertSoy2 = _interopRequireDefault(_AlertSoy);
 
@@ -25271,7 +25250,7 @@ Alert.STATE = {
 exports.default = Alert;
 
 /***/ }),
-/* 131 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25400,7 +25379,7 @@ exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 132 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25516,7 +25495,7 @@ var Anim = function () {
 exports.default = Anim;
 
 /***/ }),
-/* 133 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25651,7 +25630,7 @@ exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 134 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25954,7 +25933,7 @@ Toggler.STATE = {
 exports.default = Toggler;
 
 /***/ }),
-/* 135 */
+/* 134 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26034,7 +26013,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(AffixedReadingProgres
 
 
 /***/ }),
-/* 136 */
+/* 135 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26153,7 +26132,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(Feedback, templates);
 
 
 /***/ }),
-/* 137 */
+/* 136 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26278,7 +26257,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(Newsletter, templates
 
 
 /***/ }),
-/* 138 */
+/* 137 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26411,7 +26390,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(Sidebar, templates);
 
 
 /***/ }),
-/* 139 */
+/* 138 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26535,7 +26514,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(TutorialSidebar, temp
 
 
 /***/ }),
-/* 140 */
+/* 139 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26643,7 +26622,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(TutorialTopbar, templ
 
 
 /***/ }),
-/* 141 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26655,7 +26634,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _metalClipboard = __webpack_require__(151);
+var _metalClipboard = __webpack_require__(150);
 
 var _metalClipboard2 = _interopRequireDefault(_metalClipboard);
 
@@ -26663,7 +26642,7 @@ var _metalComponent = __webpack_require__(0);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalTooltip = __webpack_require__(168);
+var _metalTooltip = __webpack_require__(167);
 
 var _metalTooltip2 = _interopRequireDefault(_metalTooltip);
 
@@ -26726,7 +26705,7 @@ var ElectricCode = function (_Component) {
 exports.default = ElectricCode;
 
 /***/ }),
-/* 142 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26738,7 +26717,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _metalTabs = __webpack_require__(166);
+var _metalTabs = __webpack_require__(165);
 
 var _metalTabs2 = _interopRequireDefault(_metalTabs);
 
@@ -26910,7 +26889,7 @@ window.ElectricCodeTabs = ElectricCodeTabs;
 exports.default = ElectricCodeTabs;
 
 /***/ }),
-/* 143 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26956,7 +26935,7 @@ var ElectricNavigation = function (_Component) {
 exports.default = ElectricNavigation;
 
 /***/ }),
-/* 144 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26968,7 +26947,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _metalAffix = __webpack_require__(148);
+var _metalAffix = __webpack_require__(147);
 
 var _metalAffix2 = _interopRequireDefault(_metalAffix);
 
@@ -26984,7 +26963,7 @@ var _metalDom = __webpack_require__(4);
 
 var _metalDom2 = _interopRequireDefault(_metalDom);
 
-var _metalReadingProgress = __webpack_require__(159);
+var _metalReadingProgress = __webpack_require__(158);
 
 var _metalReadingProgress2 = _interopRequireDefault(_metalReadingProgress);
 
@@ -27095,7 +27074,7 @@ ElectricReadingProgress.STATE = {
 exports.default = ElectricReadingProgress;
 
 /***/ }),
-/* 145 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27168,7 +27147,7 @@ ElectricSearch.STATE = {
 exports.default = ElectricSearch;
 
 /***/ }),
-/* 146 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27267,7 +27246,7 @@ var ElectricSearchAutocomplete = function (_ElectricSearchBase) {
 exports.default = ElectricSearchAutocomplete;
 
 /***/ }),
-/* 147 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27324,7 +27303,7 @@ ElectricUpdates.STATE = {
 exports.default = ElectricUpdates;
 
 /***/ }),
-/* 148 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27348,7 +27327,7 @@ var _metalEvents = __webpack_require__(5);
 
 var _metalEvents2 = _interopRequireDefault(_metalEvents);
 
-var _metalPosition = __webpack_require__(11);
+var _metalPosition = __webpack_require__(10);
 
 var _metalPosition2 = _interopRequireDefault(_metalPosition);
 
@@ -27527,7 +27506,7 @@ Affix.STATE = {
 exports.default = Affix;
 
 /***/ }),
-/* 149 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27545,7 +27524,7 @@ var _metal = __webpack_require__(1);
 
 var _metal2 = _interopRequireDefault(_metal);
 
-var _metalDebounce = __webpack_require__(152);
+var _metalDebounce = __webpack_require__(151);
 
 var _metalDebounce2 = _interopRequireDefault(_metalDebounce);
 
@@ -27553,9 +27532,9 @@ var _metalDom = __webpack_require__(4);
 
 var _metalDom2 = _interopRequireDefault(_metalDom);
 
-var _metalPromise = __webpack_require__(12);
+var _metalPromise = __webpack_require__(11);
 
-var _metalPosition = __webpack_require__(11);
+var _metalPosition = __webpack_require__(10);
 
 var _AutocompleteBase2 = __webpack_require__(33);
 
@@ -27565,9 +27544,9 @@ var _metalSoy = __webpack_require__(2);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
-__webpack_require__(154);
+__webpack_require__(153);
 
-var _AutocompleteSoy = __webpack_require__(150);
+var _AutocompleteSoy = __webpack_require__(149);
 
 var _AutocompleteSoy2 = _interopRequireDefault(_AutocompleteSoy);
 
@@ -27965,7 +27944,7 @@ Autocomplete.STATE = {
 exports.default = Autocomplete;
 
 /***/ }),
-/* 150 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28070,7 +28049,7 @@ exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 151 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28424,7 +28403,7 @@ ClipboardAction.STATE = {
 exports.default = Clipboard;
 
 /***/ }),
-/* 152 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28462,7 +28441,7 @@ exports.cancelDebounce = cancelDebounce;
 exports.debounce = debounce;
 
 /***/ }),
-/* 153 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28735,7 +28714,7 @@ KeyboardFocusManager.REF_REGEX = /.+-(\d+)$/;
 exports.default = KeyboardFocusManager;
 
 /***/ }),
-/* 154 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28761,9 +28740,9 @@ var _metalSoy = __webpack_require__(2);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
-__webpack_require__(156);
+__webpack_require__(155);
 
-var _ListSoy = __webpack_require__(155);
+var _ListSoy = __webpack_require__(154);
 
 var _ListSoy2 = _interopRequireDefault(_ListSoy);
 
@@ -28855,7 +28834,7 @@ List.STATE = {
 exports.default = List;
 
 /***/ }),
-/* 155 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28987,7 +28966,7 @@ exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 156 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29009,7 +28988,7 @@ var _metalSoy = __webpack_require__(2);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
-var _ListItemSoy = __webpack_require__(157);
+var _ListItemSoy = __webpack_require__(156);
 
 var _ListItemSoy2 = _interopRequireDefault(_ListItemSoy);
 
@@ -29096,7 +29075,7 @@ ListItem.STATE = {
 exports.default = ListItem;
 
 /***/ }),
-/* 157 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29257,7 +29236,7 @@ exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 158 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29514,7 +29493,7 @@ Align.Left = Align.LeftCenter;
 exports.default = Align;
 
 /***/ }),
-/* 159 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29526,7 +29505,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _metal = __webpack_require__(1);
 
-var _ReadingProgress = __webpack_require__(160);
+var _ReadingProgress = __webpack_require__(159);
 
 var _ReadingProgress2 = _interopRequireDefault(_ReadingProgress);
 
@@ -29534,7 +29513,7 @@ var _metalComponent = __webpack_require__(0);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _ReadingProgressTracker = __webpack_require__(161);
+var _ReadingProgressTracker = __webpack_require__(160);
 
 var _ReadingProgressTracker2 = _interopRequireDefault(_ReadingProgressTracker);
 
@@ -29705,7 +29684,7 @@ ReadingProgress.STATE = {
 exports.default = ReadingProgress;
 
 /***/ }),
-/* 160 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29845,7 +29824,7 @@ exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 161 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29863,7 +29842,7 @@ var _metalDom = __webpack_require__(4);
 
 var _metalDom2 = _interopRequireDefault(_metalDom);
 
-var _metalScrollspy = __webpack_require__(162);
+var _metalScrollspy = __webpack_require__(161);
 
 var _metalScrollspy2 = _interopRequireDefault(_metalScrollspy);
 
@@ -30014,7 +29993,7 @@ ReadingProgressTracker.STATE = {
 exports.default = ReadingProgressTracker;
 
 /***/ }),
-/* 162 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30032,7 +30011,7 @@ var _metalDom = __webpack_require__(4);
 
 var _metalDom2 = _interopRequireDefault(_metalDom);
 
-var _metalPosition = __webpack_require__(11);
+var _metalPosition = __webpack_require__(10);
 
 var _metalPosition2 = _interopRequireDefault(_metalPosition);
 
@@ -30366,7 +30345,7 @@ Scrollspy.STATE = {
 exports.default = Scrollspy;
 
 /***/ }),
-/* 163 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30576,7 +30555,7 @@ var MultiMap = function (_Disposable) {
 exports.default = MultiMap;
 
 /***/ }),
-/* 164 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30835,7 +30814,7 @@ var assertChildHasNoParent = function assertChildHasNoParent(child) {
 exports.default = TreeNode;
 
 /***/ }),
-/* 165 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30846,11 +30825,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.TreeNode = exports.MultiMap = undefined;
 
-var _MultiMap = __webpack_require__(163);
+var _MultiMap = __webpack_require__(162);
 
 var _MultiMap2 = _interopRequireDefault(_MultiMap);
 
-var _TreeNode = __webpack_require__(164);
+var _TreeNode = __webpack_require__(163);
 
 var _TreeNode2 = _interopRequireDefault(_TreeNode);
 
@@ -30860,7 +30839,7 @@ exports.MultiMap = _MultiMap2.default;
 exports.TreeNode = _TreeNode2.default;
 
 /***/ }),
-/* 166 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30876,7 +30855,7 @@ var _metal = __webpack_require__(1);
 
 var _metal2 = _interopRequireDefault(_metal);
 
-var _TabsSoy = __webpack_require__(167);
+var _TabsSoy = __webpack_require__(166);
 
 var _TabsSoy2 = _interopRequireDefault(_TabsSoy);
 
@@ -30884,7 +30863,7 @@ var _metalComponent = __webpack_require__(0);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalKeyboardFocus = __webpack_require__(153);
+var _metalKeyboardFocus = __webpack_require__(152);
 
 var _metalKeyboardFocus2 = _interopRequireDefault(_metalKeyboardFocus);
 
@@ -31216,7 +31195,7 @@ Tabs.STATE = {
 exports.default = Tabs;
 
 /***/ }),
-/* 167 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31351,7 +31330,7 @@ exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 168 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31374,11 +31353,11 @@ var _metalSoy = __webpack_require__(2);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
-var _TooltipBase2 = __webpack_require__(170);
+var _TooltipBase2 = __webpack_require__(169);
 
 var _TooltipBase3 = _interopRequireDefault(_TooltipBase2);
 
-var _TooltipSoy = __webpack_require__(169);
+var _TooltipSoy = __webpack_require__(168);
 
 var _TooltipSoy2 = _interopRequireDefault(_TooltipSoy);
 
@@ -31454,7 +31433,7 @@ exports.Tooltip = Tooltip;
 exports.TooltipBase = _TooltipBase3.default;
 
 /***/ }),
-/* 169 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31575,7 +31554,7 @@ exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 170 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31597,7 +31576,7 @@ var _metalDom = __webpack_require__(4);
 
 var _metalDom2 = _interopRequireDefault(_metalDom);
 
-var _metalPosition = __webpack_require__(11);
+var _metalPosition = __webpack_require__(10);
 
 var _metalComponent = __webpack_require__(0);
 
@@ -31970,7 +31949,7 @@ TooltipBase.PositionClasses = ['top', 'right', 'bottom', 'left'];
 exports.default = TooltipBase;
 
 /***/ }),
-/* 171 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31986,11 +31965,11 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _metal = __webpack_require__(1);
 
-var _parse = __webpack_require__(172);
+var _parse = __webpack_require__(171);
 
 var _parse2 = _interopRequireDefault(_parse);
 
-var _metalStructs = __webpack_require__(165);
+var _metalStructs = __webpack_require__(164);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -32611,7 +32590,7 @@ Uri.RANDOM_PARAM = 'zx';
 exports.default = Uri;
 
 /***/ }),
-/* 172 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32623,7 +32602,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _metal = __webpack_require__(1);
 
-var _parseFromAnchor = __webpack_require__(173);
+var _parseFromAnchor = __webpack_require__(172);
 
 var _parseFromAnchor2 = _interopRequireDefault(_parseFromAnchor);
 
@@ -32654,7 +32633,7 @@ function parse(opt_uri) {
 exports.default = parse;
 
 /***/ }),
-/* 173 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32691,21 +32670,21 @@ function parseFromAnchor(opt_uri) {
 exports.default = parseFromAnchor;
 
 /***/ }),
-/* 174 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var Uri = __webpack_require__(171).default;
+var Uri = __webpack_require__(170).default;
 
 if (typeof URL === 'undefined' && "function" !== 'undefined') {
 	// If there is no "document", then this should be running in NodeJS or in ReactNative env and
 	// in this case we should use the "url" NPM module as the parse function.
 	// In ReactNative env "path" will be replaced with "path-browserify".
 
-	var path = __webpack_require__(176);
-	var url = __webpack_require__(181);
+	var path = __webpack_require__(175);
+	var url = __webpack_require__(180);
 
 	Uri.setParseFn(function(urlStr) {
 		var parsed = url.parse(urlStr);
@@ -32718,7 +32697,7 @@ module.exports = Uri;
 
 
 /***/ }),
-/* 175 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -32823,10 +32802,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 175;
+webpackContext.id = 174;
 
 /***/ }),
-/* 176 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(process) {// Copyright Joyent, Inc. and other Node contributors.
@@ -33054,10 +33033,10 @@ var substr = 'ab'.substr(-1) === 'b'
     }
 ;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
-/* 177 */
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(module, global) {var __WEBPACK_AMD_DEFINE_RESULT__;/*! https://mths.be/punycode v1.4.1 by @mathias */
@@ -33593,10 +33572,10 @@ var substr = 'ab'.substr(-1) === 'b'
 
 }(this));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(183)(module), __webpack_require__(10)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(182)(module), __webpack_require__(13)))
 
 /***/ }),
-/* 178 */
+/* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33687,7 +33666,7 @@ var isArray = Array.isArray || function (xs) {
 
 
 /***/ }),
-/* 179 */
+/* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33779,18 +33758,18 @@ var objectKeys = Object.keys || function (obj) {
 
 
 /***/ }),
-/* 180 */
+/* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-exports.decode = exports.parse = __webpack_require__(178);
-exports.encode = exports.stringify = __webpack_require__(179);
+exports.decode = exports.parse = __webpack_require__(177);
+exports.encode = exports.stringify = __webpack_require__(178);
 
 
 /***/ }),
-/* 181 */
+/* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33817,8 +33796,8 @@ exports.encode = exports.stringify = __webpack_require__(179);
 
 
 
-var punycode = __webpack_require__(177);
-var util = __webpack_require__(182);
+var punycode = __webpack_require__(176);
+var util = __webpack_require__(181);
 
 exports.parse = urlParse;
 exports.resolve = urlResolve;
@@ -33893,7 +33872,7 @@ var protocolPattern = /^([a-z0-9.+-]+:)/i,
       'gopher:': true,
       'file:': true
     },
-    querystring = __webpack_require__(180);
+    querystring = __webpack_require__(179);
 
 function urlParse(url, parseQueryString, slashesDenoteHost) {
   if (url && util.isObject(url) && url instanceof Url) return url;
@@ -34529,7 +34508,7 @@ Url.prototype.parseHost = function() {
 
 
 /***/ }),
-/* 182 */
+/* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34552,7 +34531,7 @@ module.exports = {
 
 
 /***/ }),
-/* 183 */
+/* 182 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -34580,7 +34559,7 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 184 */
+/* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34608,7 +34587,7 @@ var _metal = __webpack_require__(1);
 
 var _metal2 = _interopRequireDefault(_metal);
 
-var _metalPromise = __webpack_require__(12);
+var _metalPromise = __webpack_require__(11);
 
 var _metalPromise2 = _interopRequireDefault(_metalPromise);
 
@@ -34760,7 +34739,7 @@ ElectricAPIAutocomplete.STATE = {
 exports.default = ElectricAPIAutocomplete;
 
 /***/ }),
-/* 185 */
+/* 184 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34776,7 +34755,7 @@ var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
 var _electricBaseComponents = __webpack_require__(7);
 
-var _ElectricCode = __webpack_require__(186);
+var _ElectricCode = __webpack_require__(185);
 
 var _ElectricCode2 = _interopRequireDefault(_ElectricCode);
 
@@ -34787,7 +34766,7 @@ _metalSoy2.default.register(_electricBaseComponents.ElectricCode, _ElectricCode2
 exports.default = _electricBaseComponents.ElectricCode;
 
 /***/ }),
-/* 186 */
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34897,7 +34876,7 @@ exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 187 */
+/* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34913,7 +34892,7 @@ var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
 var _electricBaseComponents = __webpack_require__(7);
 
-var _ElectricNavigation = __webpack_require__(188);
+var _ElectricNavigation = __webpack_require__(187);
 
 var _ElectricNavigation2 = _interopRequireDefault(_ElectricNavigation);
 
@@ -34924,7 +34903,7 @@ _metalSoy2.default.register(_electricBaseComponents.ElectricNavigation, _Electri
 exports.default = _electricBaseComponents.ElectricNavigation;
 
 /***/ }),
-/* 188 */
+/* 187 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35076,7 +35055,7 @@ exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 189 */
+/* 188 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35092,7 +35071,7 @@ var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
 var _electricBaseComponents = __webpack_require__(7);
 
-var _ElectricReadingProgress = __webpack_require__(190);
+var _ElectricReadingProgress = __webpack_require__(189);
 
 var _ElectricReadingProgress2 = _interopRequireDefault(_ElectricReadingProgress);
 
@@ -35103,7 +35082,7 @@ _metalSoy2.default.register(_electricBaseComponents.ElectricReadingProgress, _El
 exports.default = _electricBaseComponents.ElectricReadingProgress;
 
 /***/ }),
-/* 190 */
+/* 189 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35206,7 +35185,7 @@ exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 191 */
+/* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35222,7 +35201,7 @@ var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
 var _electricBaseComponents = __webpack_require__(7);
 
-var _ElectricSearch = __webpack_require__(192);
+var _ElectricSearch = __webpack_require__(191);
 
 var _ElectricSearch2 = _interopRequireDefault(_ElectricSearch);
 
@@ -35233,7 +35212,7 @@ _metalSoy2.default.register(_electricBaseComponents.ElectricSearch, _ElectricSea
 exports.default = _electricBaseComponents.ElectricSearch;
 
 /***/ }),
-/* 192 */
+/* 191 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35427,7 +35406,7 @@ exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 193 */
+/* 192 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35443,7 +35422,7 @@ var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
 var _electricBaseComponents = __webpack_require__(7);
 
-var _ElectricSearchAutocomplete = __webpack_require__(194);
+var _ElectricSearchAutocomplete = __webpack_require__(193);
 
 var _ElectricSearchAutocomplete2 = _interopRequireDefault(_ElectricSearchAutocomplete);
 
@@ -35454,7 +35433,7 @@ _metalSoy2.default.register(_electricBaseComponents.ElectricSearchAutocomplete, 
 exports.default = _electricBaseComponents.ElectricSearchAutocomplete;
 
 /***/ }),
-/* 194 */
+/* 193 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35564,7 +35543,7 @@ exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 195 */
+/* 194 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35580,7 +35559,7 @@ var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
 var _electricBaseComponents = __webpack_require__(7);
 
-var _ElectricUpdates = __webpack_require__(196);
+var _ElectricUpdates = __webpack_require__(195);
 
 var _ElectricUpdates2 = _interopRequireDefault(_ElectricUpdates);
 
@@ -35591,7 +35570,7 @@ _metalSoy2.default.register(_electricBaseComponents.ElectricUpdates, _ElectricUp
 exports.default = _electricBaseComponents.ElectricUpdates;
 
 /***/ }),
-/* 196 */
+/* 195 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35798,6 +35777,7 @@ exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
+/* 196 */,
 /* 197 */,
 /* 198 */,
 /* 199 */,
@@ -35977,9 +35957,7 @@ exports.default = templates;
 /* 373 */,
 /* 374 */,
 /* 375 */,
-/* 376 */,
-/* 377 */,
-/* 378 */
+/* 376 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36086,6 +36064,8 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(rubyTutorials, templa
 
 
 /***/ }),
+/* 377 */,
+/* 378 */,
 /* 379 */,
 /* 380 */,
 /* 381 */,
@@ -36267,10 +36247,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(rubyTutorials, templa
 /* 557 */,
 /* 558 */,
 /* 559 */,
-/* 560 */,
-/* 561 */,
-/* 562 */,
-/* 563 */
+/* 560 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36318,7 +36295,7 @@ __webpack_require__(93);
 
 __webpack_require__(94);
 
-var _indexSoy = __webpack_require__(378);
+var _indexSoy = __webpack_require__(376);
 
 var _indexSoy2 = _interopRequireDefault(_indexSoy);
 
@@ -36349,4 +36326,4 @@ _metalSoy2.default.register(rubyTutorials, _indexSoy2.default);
 exports.default = rubyTutorials;
 
 /***/ })
-],[563]);
+],[560]);

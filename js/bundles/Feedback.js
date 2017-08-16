@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([187],[
+webpackJsonppageComponent([186],[
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -617,36 +617,9 @@ function getData(component) {
 }
 
 /***/ }),
-/* 10 */
-/***/ (function(module, exports) {
-
-var g;
-
-// This works in non-strict mode
-g = (function() {
-	return this;
-})();
-
-try {
-	// This works if eval is allowed (see CSP)
-	g = g || Function("return this")() || (1,eval)("this");
-} catch(e) {
-	// This works if the window reference is available
-	if(typeof window === "object")
-		g = window;
-}
-
-// g can still be undefined, but nothing to do about it...
-// We return undefined, instead of nothing here, so it's
-// easier to handle this case. if(!global) { ...}
-
-module.exports = g;
-
-
-/***/ }),
+/* 10 */,
 /* 11 */,
-/* 12 */,
-/* 13 */
+/* 12 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -833,6 +806,33 @@ process.chdir = function (dir) {
     throw new Error('process.chdir is not supported');
 };
 process.umask = function() { return 0; };
+
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports) {
+
+var g;
+
+// This works in non-strict mode
+g = (function() {
+	return this;
+})();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || Function("return this")() || (1,eval)("this");
+} catch(e) {
+	// This works if the window reference is available
+	if(typeof window === "object")
+		g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
 
 
 /***/ }),
@@ -2310,7 +2310,7 @@ if ((0, _metal.isServerSide)()) {
 
 	scope.IncrementalDOM = IncrementalDOM;
 }
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(10)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
 
 /***/ }),
 /* 28 */
@@ -3240,7 +3240,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _ToastSoy = __webpack_require__(133);
+var _ToastSoy = __webpack_require__(132);
 
 var _ToastSoy2 = _interopRequireDefault(_ToastSoy);
 
@@ -3248,7 +3248,7 @@ var _metalSoy = __webpack_require__(2);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
-var _metalAlert = __webpack_require__(130);
+var _metalAlert = __webpack_require__(129);
 
 var _metalAlert2 = _interopRequireDefault(_metalAlert);
 
@@ -3405,7 +3405,7 @@ var _metalToast = __webpack_require__(32);
 
 var _metalToast2 = _interopRequireDefault(_metalToast);
 
-var _Feedback = __webpack_require__(136);
+var _Feedback = __webpack_require__(135);
 
 var _Feedback2 = _interopRequireDefault(_Feedback);
 
@@ -5653,7 +5653,7 @@ exports.notifications = notifications;
 exports.importNode = importNode;
 
 //# sourceMappingURL=incremental-dom-cjs.js.map
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
 /* 102 */
@@ -13985,7 +13985,7 @@ __webpack_require__(23);
     return IncrementalDOM;
   });
 }).call(typeof exports !== 'undefined' && typeof global !== 'undefined' ? global : window);
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(10)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
 
 /***/ }),
 /* 118 */
@@ -15574,7 +15574,7 @@ async.nextTick.wrapCallback_ = function (opt_returnValue) {
 };
 
 exports.default = async;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(129).setImmediate))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(128).setImmediate))
 
 /***/ }),
 /* 123 */
@@ -15909,7 +15909,7 @@ function isServerSide() {
  * @return {void} Nothing.
  */
 function nullFunction() {}
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
 /* 124 */
@@ -16227,26 +16227,6 @@ exports.default = string;
 /* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(global) {var win;
-
-if (typeof window !== "undefined") {
-    win = window;
-} else if (typeof global !== "undefined") {
-    win = global;
-} else if (typeof self !== "undefined"){
-    win = self;
-} else {
-    win = {};
-}
-
-module.exports = win;
-
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(10)))
-
-/***/ }),
-/* 128 */
-/***/ (function(module, exports, __webpack_require__) {
-
 /* WEBPACK VAR INJECTION */(function(global, process) {(function (global, undefined) {
     "use strict";
 
@@ -16434,10 +16414,10 @@ module.exports = win;
     attachTo.clearImmediate = clearImmediate;
 }(typeof self === "undefined" ? typeof global === "undefined" ? this : global : self));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(10), __webpack_require__(13)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13), __webpack_require__(12)))
 
 /***/ }),
-/* 129 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var apply = Function.prototype.apply;
@@ -16490,14 +16470,13 @@ exports._unrefActive = exports.active = function(item) {
 };
 
 // setimmediate attaches itself to the global object
-__webpack_require__(128);
-var global = __webpack_require__(127);
-exports.setImmediate = global.setImmediate;
-exports.clearImmediate = global.clearImmediate;
+__webpack_require__(127);
+exports.setImmediate = setImmediate;
+exports.clearImmediate = clearImmediate;
 
 
 /***/ }),
-/* 130 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16517,7 +16496,7 @@ var _metalDom = __webpack_require__(4);
 
 var _metalDom2 = _interopRequireDefault(_metalDom);
 
-var _metalAnim = __webpack_require__(132);
+var _metalAnim = __webpack_require__(131);
 
 var _metalAnim2 = _interopRequireDefault(_metalAnim);
 
@@ -16531,7 +16510,7 @@ var _metalSoy = __webpack_require__(2);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
-var _AlertSoy = __webpack_require__(131);
+var _AlertSoy = __webpack_require__(130);
 
 var _AlertSoy2 = _interopRequireDefault(_AlertSoy);
 
@@ -16793,7 +16772,7 @@ Alert.STATE = {
 exports.default = Alert;
 
 /***/ }),
-/* 131 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16922,7 +16901,7 @@ exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 132 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17038,7 +17017,7 @@ var Anim = function () {
 exports.default = Anim;
 
 /***/ }),
-/* 133 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17173,9 +17152,9 @@ exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
+/* 133 */,
 /* 134 */,
-/* 135 */,
-/* 136 */
+/* 135 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

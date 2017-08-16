@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([185,190],[
+webpackJsonppageComponent([184,189],[
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -924,7 +924,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// moment.js
             return moment.fn._lang;
         }
         if (!languages[key] && hasModule) {
-            __webpack_require__(175)("./" + key);
+            __webpack_require__(174)("./" + key);
         }
         return languages[key];
     }
@@ -2023,36 +2023,9 @@ function getData(component) {
 }
 
 /***/ }),
-/* 10 */
-/***/ (function(module, exports) {
-
-var g;
-
-// This works in non-strict mode
-g = (function() {
-	return this;
-})();
-
-try {
-	// This works if eval is allowed (see CSP)
-	g = g || Function("return this")() || (1,eval)("this");
-} catch(e) {
-	// This works if the window reference is available
-	if(typeof window === "object")
-		g = window;
-}
-
-// g can still be undefined, but nothing to do about it...
-// We return undefined, instead of nothing here, so it's
-// easier to handle this case. if(!global) { ...}
-
-module.exports = g;
-
-
-/***/ }),
+/* 10 */,
 /* 11 */,
-/* 12 */,
-/* 13 */
+/* 12 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -2239,6 +2212,33 @@ process.chdir = function (dir) {
     throw new Error('process.chdir is not supported');
 };
 process.umask = function() { return 0; };
+
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports) {
+
+var g;
+
+// This works in non-strict mode
+g = (function() {
+	return this;
+})();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || Function("return this")() || (1,eval)("this");
+} catch(e) {
+	// This works if the window reference is available
+	if(typeof window === "object")
+		g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
 
 
 /***/ }),
@@ -3716,7 +3716,7 @@ if ((0, _metal.isServerSide)()) {
 
 	scope.IncrementalDOM = IncrementalDOM;
 }
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(10)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
 
 /***/ }),
 /* 28 */
@@ -7717,7 +7717,7 @@ var _moment = __webpack_require__(3);
 
 var _moment2 = _interopRequireDefault(_moment);
 
-var _TutorialSidebar = __webpack_require__(139);
+var _TutorialSidebar = __webpack_require__(138);
 
 var _TutorialSidebar2 = _interopRequireDefault(_TutorialSidebar);
 
@@ -10002,7 +10002,7 @@ exports.notifications = notifications;
 exports.importNode = importNode;
 
 //# sourceMappingURL=incremental-dom-cjs.js.map
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
 /* 102 */
@@ -18334,7 +18334,7 @@ __webpack_require__(23);
     return IncrementalDOM;
   });
 }).call(typeof exports !== 'undefined' && typeof global !== 'undefined' ? global : window);
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(10)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
 
 /***/ }),
 /* 118 */
@@ -19923,7 +19923,7 @@ async.nextTick.wrapCallback_ = function (opt_returnValue) {
 };
 
 exports.default = async;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(129).setImmediate))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(128).setImmediate))
 
 /***/ }),
 /* 123 */
@@ -20258,7 +20258,7 @@ function isServerSide() {
  * @return {void} Nothing.
  */
 function nullFunction() {}
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
 /* 124 */
@@ -20576,26 +20576,6 @@ exports.default = string;
 /* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(global) {var win;
-
-if (typeof window !== "undefined") {
-    win = window;
-} else if (typeof global !== "undefined") {
-    win = global;
-} else if (typeof self !== "undefined"){
-    win = self;
-} else {
-    win = {};
-}
-
-module.exports = win;
-
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(10)))
-
-/***/ }),
-/* 128 */
-/***/ (function(module, exports, __webpack_require__) {
-
 /* WEBPACK VAR INJECTION */(function(global, process) {(function (global, undefined) {
     "use strict";
 
@@ -20783,10 +20763,10 @@ module.exports = win;
     attachTo.clearImmediate = clearImmediate;
 }(typeof self === "undefined" ? typeof global === "undefined" ? this : global : self));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(10), __webpack_require__(13)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13), __webpack_require__(12)))
 
 /***/ }),
-/* 129 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var apply = Function.prototype.apply;
@@ -20839,13 +20819,13 @@ exports._unrefActive = exports.active = function(item) {
 };
 
 // setimmediate attaches itself to the global object
-__webpack_require__(128);
-var global = __webpack_require__(127);
-exports.setImmediate = global.setImmediate;
-exports.clearImmediate = global.clearImmediate;
+__webpack_require__(127);
+exports.setImmediate = setImmediate;
+exports.clearImmediate = clearImmediate;
 
 
 /***/ }),
+/* 129 */,
 /* 130 */,
 /* 131 */,
 /* 132 */,
@@ -20854,8 +20834,7 @@ exports.clearImmediate = global.clearImmediate;
 /* 135 */,
 /* 136 */,
 /* 137 */,
-/* 138 */,
-/* 139 */
+/* 138 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -20979,6 +20958,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(TutorialSidebar, temp
 
 
 /***/ }),
+/* 139 */,
 /* 140 */,
 /* 141 */,
 /* 142 */,
@@ -21013,8 +20993,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(TutorialSidebar, temp
 /* 171 */,
 /* 172 */,
 /* 173 */,
-/* 174 */,
-/* 175 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -21119,7 +21098,7 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 175;
+webpackContext.id = 174;
 
 /***/ })
 ],[85]);
