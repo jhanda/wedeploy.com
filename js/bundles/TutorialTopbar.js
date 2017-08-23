@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([199,202],[
+webpackJsonppageComponent([199,201],[
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16443,13 +16443,13 @@ function $render(opt_data, opt_ignored, opt_ijData) {
           'class', 'icon-16-menu');
     ie_close('button');
     if (opt_data.logo) {
-      var dyn4 = opt_data.logo;
-      if (typeof dyn4 == 'function') dyn4(); else if (dyn4 != null) itext(dyn4);
+      var dyn12 = opt_data.logo;
+      if (typeof dyn12 == 'function') dyn12(); else if (dyn12 != null) itext(dyn12);
     }
     ie_open('h3', null, null,
         'class', 'topbar-logo-text');
-      var dyn5 = ($$temp = opt_data.page.tutorialTitle) == null ? '' : $$temp;
-      if (typeof dyn5 == 'function') dyn5(); else if (dyn5 != null) itext(dyn5);
+      var dyn13 = ($$temp = opt_data.page.tutorialTitle) == null ? '' : $$temp;
+      if (typeof dyn13 == 'function') dyn13(); else if (dyn13 != null) itext(dyn13);
     ie_close('h3');
     ie_open('div', null, null,
         'class', 'time-remaining');
@@ -16458,8 +16458,8 @@ function $render(opt_data, opt_ignored, opt_ijData) {
             'class', 'icon icon-16-clock');
         ie_open('span', null, null,
             'class', 'name');
-          var dyn6 = ($$temp = opt_data.page.timeRemaining) == null ? '' : $$temp;
-          if (typeof dyn6 == 'function') dyn6(); else if (dyn6 != null) itext(dyn6);
+          var dyn14 = ($$temp = opt_data.page.timeRemaining) == null ? '' : $$temp;
+          if (typeof dyn14 == 'function') dyn14(); else if (dyn14 != null) itext(dyn14);
         ie_close('span');
       }
     ie_close('div');
