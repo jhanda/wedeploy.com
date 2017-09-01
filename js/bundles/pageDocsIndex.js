@@ -36152,10 +36152,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
-  var param429 = function() {
+  var param418 = function() {
     $topics(opt_data, null, opt_ijData);
   };
-  $templateAlias1(soy.$$assignDefaults({content: param429}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param418}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -36231,25 +36231,25 @@ function $topics(opt_data, opt_ignored, opt_ijData) {
             'class', 'col-md-12 col-md-offset-2 col-xs-16');
           ie_open('div', null, null,
               'class', 'row');
-            var childIdList448 = opt_data.page.childIds;
-            var childIdListLen448 = childIdList448.length;
-            for (var childIdIndex448 = 0; childIdIndex448 < childIdListLen448; childIdIndex448++) {
-              var childIdData448 = childIdList448[childIdIndex448];
-              if (! opt_data.page.children[childIdData448].hidden) {
+            var childIdList437 = opt_data.page.childIds;
+            var childIdListLen437 = childIdList437.length;
+            for (var childIdIndex437 = 0; childIdIndex437 < childIdListLen437; childIdIndex437++) {
+              var childIdData437 = childIdList437[childIdIndex437];
+              if (! opt_data.page.children[childIdData437].hidden) {
                 ie_open('div', null, null,
                     'class', 'col-md-8 col-md-offset-0 col-xs-14 col-xs-offset-1');
                   ie_open('a', null, null,
                       'class', 'topic radial-out',
-                      'href', opt_data.page.children[childIdData448].url);
+                      'href', opt_data.page.children[childIdData437].url);
                     ie_open('div', null, null,
                         'class', 'topic-icon');
                       ie_void('span', null, null,
-                          'class', 'icon-16-' + opt_data.page.children[childIdData448].icon);
+                          'class', 'icon-16-' + opt_data.page.children[childIdData437].icon);
                     ie_close('div');
                     ie_open('h3', null, null,
                         'class', 'topic-title');
-                      var dyn35 = opt_data.page.children[childIdData448].title;
-                      if (typeof dyn35 == 'function') dyn35(); else if (dyn35 != null) itext(dyn35);
+                      var dyn34 = opt_data.page.children[childIdData437].title;
+                      if (typeof dyn34 == 'function') dyn34(); else if (dyn34 != null) itext(dyn34);
                     ie_close('h3');
                   ie_close('a');
                 ie_close('div');
