@@ -161,7 +161,7 @@ This operation will return the newly created array of documents, with the follow
 
 ## Inserting new fields in an existing collection
 
-WeDeploy Data service is really flexible in therms of data structure. You're able to insert new fiels in a collection by adding the new key in the object param.
+WeDeploy Data service is really flexible in terms of data structure. You're able to insert new fields in a collection by adding the new key in the object param.
 
 ```javascript
 WeDeploy
